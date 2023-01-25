@@ -38,7 +38,7 @@ print('Predicted CO2 for the corresponding weight and volume',predictedCO2)
 ```
 ### Output:
 ## Insert your output:
-![image](https://user-images.githubusercontent.com/119875375/214352963-5b6f7875-d7a6-4c19-a40a-2e1e438e4fee.png)
+file:///home/sec/Pictures/Screenshots/multivariate.png![image](https://user-images.githubusercontent.com/119875375/214534536-5a6aee22-6f87-4c14-a794-1158e737cbf8.png)
 
 
 ## Result:
