@@ -21,9 +21,7 @@ cube.
 ## Step6:
 Print the predicted output.
 ## Program:
-```
-Developed by: Kavinraja.D
-Reg.No: 22007928
+```py
 import pandas as pd
 from sklearn import linear_model
 df = pd.read_csv("carsemission.csv")
