@@ -21,22 +21,28 @@ cube.
 ## Step6:
 Print the predicted output.
 ## Program:
+```
+Register no: 212222230116
+Name : Ranjan k
+```
 ```py
 import pandas as pd
 from sklearn import linear_model
-df = pd.read_csv("carsemission.csv")
-X = df[['Weight', 'Volume']]
-y = df['CO2']
-regr = linear_model.LinearRegression()
-regr.fit(X, y)
-print('Coefficients:', regr.coef_)
-print('Intercept:',regr.intercept_)
-predictedCO2 = regr.predict([[3300, 1300]])
-print('Predicted CO2 for the corresponding weight and volume',predictedCO2)
+df=pd.read_csv("/content/cars (1).csv")
+x=df[['Weight','Volume']]
+y=df['CO2']
+regr=linear_model.LinearRegression()
+regr.fit(x,y)
+print("coefficient:",regr.coef_)
+print("Intercept:",regr.intercept_)
+predictedCO2=regr.predict([[3300,1300]])
+print("Predicted CO2 for the corresponding weight and volume",predictedCO2)
+
 ```
 ### Output:
 ## Insert your output:
-file:///home/sec/Pictures/Screenshots/multivariate.png![image](https://user-images.githubusercontent.com/119875375/214534536-5a6aee22-6f87-4c14-a794-1158e737cbf8.png)
+![Screenshot 2023-11-07 094313](https://github.com/Ranjanranjan/Multivariate-Linear-Regression/assets/130027697/c4daf1c5-99ce-44bd-8d76-8a227f55dcfa)
+
 
 
 ## Result:
