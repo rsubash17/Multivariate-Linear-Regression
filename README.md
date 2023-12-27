@@ -22,10 +22,9 @@ cube.
 Print the predicted output.
 ## Program:
 ```
-Register no: 23003821
-Name : SUBASH R
-```
-```py
+Developed by: SUBASH R
+Reference number: 23003821
+
 import pandas as pd
 from sklearn import linear_model
 df=pd.read_csv("/content/cars (1).csv")
@@ -33,15 +32,16 @@ x=df[['Weight','Volume']]
 y=df['CO2']
 regr=linear_model.LinearRegression()
 regr.fit(x,y)
-print("coefficient:",regr.coef_)
+print("Coefficient:",regr.coef_)
 print("Intercept:",regr.intercept_)
 predictedCO2=regr.predict([[3300,1300]])
-print("Predicted CO2 for the corresponding weight and volume",predictedCO2)
+print("Predicted CO@ for the corresponding weight and volume",predictedCO2)
 
 ```
 ### Output:
 ## Insert your output:
-![image](https://github.com/rsubash17/Multivariate-Linear-Regression/assets/147139828/8a046a8d-2095-4095-adb3-d3e69c12a459)
+
+![292756171-60c0b797-e892-4e0a-94b1-01aba67cd168](https://github.com/rsubash17/Multivariate-Linear-Regression/assets/147139828/809727da-2344-4e71-8fe7-fee211281f9e)
 
 
 
