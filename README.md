@@ -22,8 +22,8 @@ cube.
 Print the predicted output.
 ## Program:
 ```
-Register no: 212222230116
-Name : Ranjan k
+Register no: 23003821
+Name : SUBASH R
 ```
 ```py
 import pandas as pd
@@ -41,7 +41,8 @@ print("Predicted CO2 for the corresponding weight and volume",predictedCO2)
 ```
 ### Output:
 ## Insert your output:
-![Screenshot 2023-11-07 094313](https://github.com/Ranjanranjan/Multivariate-Linear-Regression/assets/130027697/c4daf1c5-99ce-44bd-8d76-8a227f55dcfa)
+![image](https://github.com/rsubash17/Multivariate-Linear-Regression/assets/147139828/8a046a8d-2095-4095-adb3-d3e69c12a459)
+
 
 
 
